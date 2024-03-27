@@ -67,7 +67,7 @@ brain-progression
 ```bash
 brain-even
 ```
-[![asciicast](https://asciinema.org/a/nM7rU6LVqmKNKRUFw8BwBAMsn.svg)](https://asciinema.org/a/nM7rU6LVqmKNKRUFw8BwBAMsn)
+[![asciicast](https://asciinema.org/a/2eYx1HmuhKFBZtgOrEjAkNjz2.svg)](https://asciinema.org/a/2eYx1HmuhKFBZtgOrEjAkNjz2)
 
 ### Игра НОД
 ```bash
