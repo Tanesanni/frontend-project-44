@@ -2,31 +2,31 @@ import game from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const isPrimeNumber = (number) => {
-    const firstNotPrimeNumber = 1;
-    const firstPrimeNumber = 2;
+  const firstNotPrimeNumber = 1;
+  const firstPrimeNumber = 2;
 
-    if (number === firstNotPrimeNumber) {
-        return false;
-    }
+  if (number === firstNotPrimeNumber) {
+    return false;
+  }
 
-    for (let i = firstPrimeNumber; i < number; i += 1) {
-        if (number % i === 0) {
-            return false;
-        }
+  for (let i = firstPrimeNumber; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
     }
-    return true;
+  }
+  return true;
 };
 
 const generateRoundProperties = () => {
-    const firstNotPrimeNumber = 1;
-    const number = firstNotPrimeNumber + getRandomNumber(10);
+  const firstNotPrimeNumber = 1;
+  const number = firstNotPrimeNumber + getRandomNumber(10);
 
-    const question = `${number}`;
-    const correctAnswer = isPrimeNumber(number) ? 'yes' : 'no';
+  const question = `${number}`;
+  const correctAnswer = isPrimeNumber(number) ? 'yes' : 'no';
 
-    return { question, correctAnswer };
+  return { question, correctAnswer };
 };
 
 export default () => {
-    game('Answer "yes" if given number is prime. Otherwise answer "no".', generateRoundProperties);
+  game('Answer "yes" if given number is prime. Otherwise answer "no".', generateRoundProperties);
 };

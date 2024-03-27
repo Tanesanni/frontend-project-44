@@ -4,14 +4,14 @@ import getRandomNumber from '../utils.js';
 const isEvenNumber = (number) => (number % 2 === 0);
 
 const generateRoundProperties = () => {
-    const number = getRandomNumber(50);
+  const number = getRandomNumber(50);
 
-    const question = `${number}`;
-    const correctAnswer = isEvenNumber(number) ? 'yes' : 'no';
+  const question = `${number}`;
+  const correctAnswer = isEvenNumber(number) ? 'yes' : 'no';
 
-    return { question, correctAnswer };
+  return { question, correctAnswer };
 };
 
 export default () => {
-    game('Answer "yes" if the number is even, otherwise answer "no".', generateRoundProperties);
+  game('Answer "yes" if the number is even, otherwise answer "no".', generateRoundProperties);
 };
