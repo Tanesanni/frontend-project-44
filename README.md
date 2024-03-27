@@ -61,7 +61,7 @@ brain-calc
 ```bash
 brain-progression
 ```
-[![asciicast](https://asciinema.org/a/WJnGEo0AoFRMNLWNjKyfnwwIJ.svg)](https://asciinema.org/a/WJnGEo0AoFRMNLWNjKyfnwwIJ)
+[![asciicast](https://asciinema.org/a/HEv8hq9othiLzeEODWOpYi4Gv.svg)](https://asciinema.org/a/HEv8hq9othiLzeEODWOpYi4Gv)
 
 ### Четное число
 ```bash
