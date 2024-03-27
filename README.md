@@ -79,4 +79,4 @@ brain-gcd
 ```bash
 brain-prime
 ```
-[![asciicast](https://asciinema.org/a/ZLKezQr3uYOGvwvZkylXjR04M.svg)](https://asciinema.org/a/ZLKezQr3uYOGvwvZkylXjR04M)
+[![asciicast](https://asciinema.org/a/A7VDhonuvmFh91ZO3Tadq0opA.svg)](https://asciinema.org/a/A7VDhonuvmFh91ZO3Tadq0opA)
