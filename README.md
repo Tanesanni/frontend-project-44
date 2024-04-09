@@ -75,6 +75,7 @@ brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/uvl8inx1noCBUTwv0VHNjApiq.svg)](https://asciinema.org/a/uvl8inx1noCBUTwv0VHNjApiq)
 
+
 ### Простое число
 ```bash
 brain-prime
